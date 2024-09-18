@@ -23,7 +23,7 @@ test_data = datasets.FashionMNIST(
     transform=ToTensor()
 )
 
-batch_size = 64
+batch_size = 128
 
 # Create data loaders.
 train_dataloader = DataLoader(training_data, batch_size=batch_size)
