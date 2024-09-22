@@ -1,4 +1,4 @@
-import torch
+4import torch
 from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import datasets
@@ -23,7 +23,7 @@ test_data = datasets.FashionMNIST(
     transform=ToTensor()
 )
 
-batch_size = 6
+batch_size = 64
 
 # Create data loaders.
 train_dataloader = DataLoader(training_data, batch_size=batch_size)
