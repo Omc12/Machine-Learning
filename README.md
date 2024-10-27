@@ -3,7 +3,7 @@
 ## Installations
 Pytorch, Torchvision
 
-###NVIDIA CUDA Support
+# NVIDIA CUDA Support
 If you want to compile with CUDA support, select a supported version of CUDA from our support matrix, then install the following:
 
 NVIDIA CUDA
